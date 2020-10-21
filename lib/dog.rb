@@ -4,5 +4,13 @@
 # creats #bark that puts "woof!" when called on instance of Dog
 
 class Dog(name)
-  
+  def name=(name)
+    @name = name
+  end
+  def name
+    name = @name
+  end
+  def bark
+    puts "woof!"
+  end
 end
