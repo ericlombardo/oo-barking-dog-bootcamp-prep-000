@@ -1,8 +1,3 @@
-
-
-
-
-
 # defines a class called Dog
 class Dog
   # creates #initialize to run on each instance of Dog
